@@ -1,0 +1,62 @@
+
+/* -------------------------------------------------------
+                     phone & tablet 
+-------------------------------------------------------- */
+
+@media (max-width: 767px){
+
+	 /* Navbar */
+    .navbar .navbar-toggle{
+		background: none;
+		margin-top: 15px;
+		border: none;
+	}
+
+	.navbar .navbar-toggle:hover,
+	.navbar .navbar-toggle:focus
+	{
+		background: none;
+	}
+
+	.navbar .navbar-toggle .icon-bar{
+		background: #fff;
+	}
+		
+	.navbar .navbar-collapse{
+		border: none;
+		background: #111;
+		margin-top: 4px;
+		text-align: center;
+	}
+
+	.caption h1{
+		font-size: 50px;
+	}
+
+	.header{
+		background-position: 50% 0% !important;
+	}
+
+	.portfolio .filtering span{
+		font-size: 14px;
+		padding: 10px 13px;
+	}
+}
+
+@media (max-width: 991px){
+
+	.portfolio .item-img{
+		width: 100%;
+	}
+
+	.hero .hero-img{
+		margin-bottom: 80px;
+	}
+
+	.services .item,
+	.numbers .numb-item,
+	.blog .post
+	{
+		margin-bottom: 50px;
+	}
+}
